@@ -1,0 +1,25 @@
+.header {
+  background-color: var(--primary-color);
+  color: var(--accent-color);
+  padding: 1rem 2rem;
+}
+
+.container {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.logo a {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  font-weight: 500;
+}

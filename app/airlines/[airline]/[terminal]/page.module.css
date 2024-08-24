@@ -1,0 +1,46 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 2rem 4rem 2rem;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: 300;
+  text-align: center;
+  color: var(--primary-color);
+  padding-bottom: 2rem;
+}
+
+.image {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.subheading {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--primary-color);
+}
+
+.info {
+  padding: 2rem 0;
+}
+
+.info h3 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--primary-color);
+}
+
+.bold {
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.info div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 20px;
+}
